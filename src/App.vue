@@ -49,7 +49,7 @@
               <span>Cart ({{ cartTotalLength }})</span>
             </router-link>
             <div v-if="$store.state.isAuthenticated">
-              <router-link style="margin-left:4px;" to="/myaccount" class="button is-success">My Account</router-link>
+              <router-link style="margin-right:4px;margin-bottom:4px;" to="/myaccount" class="button is-success">My Account</router-link>
               <button @click="logout()" style="margin-left:4px;" class="button is-danger">Logout</button>
             </div>
 
