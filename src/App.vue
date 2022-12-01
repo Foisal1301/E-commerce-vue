@@ -44,7 +44,7 @@
           <router-link class="navbar-item" to="/winter">Winter</router-link>
 
           <div class="navbar-item">
-	    <router-link to="/cart" class="button is-light">
+	    <router-link to="/cart" style="margin-left:4px;" class="button is-light">
               <span class="icon"><i class="fas fa-shopping-cart"></i></span>
               <span>Cart ({{ cartTotalLength }})</span>
             </router-link>
