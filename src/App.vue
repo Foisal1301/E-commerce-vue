@@ -44,11 +44,11 @@
           <router-link class="navbar-item" to="/winter">Winter</router-link>
 
           <div class="navbar-item">
+	    <router-link to="/cart" class="button is-light">
+              <span class="icon"><i class="fas fa-shopping-cart"></i></span>
+              <span>Cart ({{ cartTotalLength }})</span>
+            </router-link>
             <div v-if="$store.state.isAuthenticated">
-              <router-link to="/cart" class="button is-light">
-                <span class="icon"><i class="fas fa-shopping-cart"></i></span>
-                <span>Cart ({{ cartTotalLength }})</span>
-              </router-link>
               <router-link style="margin-left:4px;" to="/myaccount" class="button is-success">My Account</router-link>
               <button @click="logout()" style="margin-left:4px;" class="button is-danger">Logout</button>
             </div>
