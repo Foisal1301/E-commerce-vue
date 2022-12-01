@@ -41,7 +41,6 @@ export default{
     methods:{
         async getCategory(){
             const categorySlug = this.$route.params.category_slug;
-            console.log(`categorySlug:${categorySlug}`);
             
             this.$store.commit('setIsLoading',true);
             await axios

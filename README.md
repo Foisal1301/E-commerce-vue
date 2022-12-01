@@ -1,4 +1,5 @@
-# djackets_vue
+# E-Coomerce Website
+Frontend is designed with Vue js and backend is made with Django
 
 ## Project setup
 ```
